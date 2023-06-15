@@ -1,11 +1,4 @@
 import tensorflow as tf
-ghgh
-
-
-
-
-
-
 
 
 def main():
