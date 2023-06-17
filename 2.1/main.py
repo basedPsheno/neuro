@@ -8,7 +8,9 @@ def main():
     print(X)
     Y = tf.zeros((2, 3, 4))
     print(Y)
-
+    Z = tf.ones((2, 3, 4))
+    print(Z)
+    
 
 if __name__ == "__main__":
     main()
