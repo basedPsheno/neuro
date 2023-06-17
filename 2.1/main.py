@@ -6,6 +6,8 @@ def main():
     print(x)
     X = tf.reshape(x, (3, 4))
     print(X)
+    Y = tf.zeros((2, 3, 4))
+    print(Y)
 
 
 if __name__ == "__main__":
