@@ -12,6 +12,9 @@ def main():
     print(Z)
     A = tf.random.normal(shape=[3, 4])
     print(A)
+    B = tf.constant([[2, 1, 4, 3], [1, 2, 3, 4], [4, 3, 2, 1]])
+    print(B)
+
     
 
 if __name__ == "__main__":
