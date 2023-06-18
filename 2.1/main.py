@@ -10,6 +10,8 @@ def main():
     print(Y)
     Z = tf.ones((2, 3, 4))
     print(Z)
+    A = tf.random.normal(shape=[3, 4])
+    print(A)
     
 
 if __name__ == "__main__":
